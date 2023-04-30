@@ -5,7 +5,6 @@ function computerPlay(){
 }
 
 function playRound(playerSelection, computerSelection) {
-
   playerSelection = playerSelection.toLowerCase()
 
   if (playerSelection === computerSelection) {
@@ -22,12 +21,10 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-
   let playerScore = 0;
   let computerScore = 0;
 
   for (let i = 0; i < 5; i++) {
-
     let playerSelection;
 
     while (true) {
